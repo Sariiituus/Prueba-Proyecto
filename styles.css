@@ -1,0 +1,55 @@
+body {
+    background-color: skyblue;
+    color: black;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.inputDiv {
+    width: 100vw;
+    text-align: center;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Se adapta a la pagina */
+    grid-gap: 20px;
+    padding-inline-start: 0;
+}
+
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: azure;
+    color: #222;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f5f5f5;
+}
+
+.card-image {
+    position: relative;
+    /* width: 100px;
+    height: 150px;
+    margin: 50px auto; */
+}
