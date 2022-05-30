@@ -54,7 +54,7 @@ const getPokemon = () => {
 const buscar = (pokemons) => {
   const pokemonsFiltrados = [];
   for (const pokemon of pokemons) {
-    if (pokemon.name.toLowerCase().includes(buscador.value.toLowerCase())) {
+    if (pokemon.name.toLowerCase().includes(buscador.value.toLowerCase().trim())) {
       pokemonsFiltrados.push(pokemon);
     }
 

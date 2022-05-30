@@ -10,15 +10,6 @@ body {
     margin: 0 auto;
 }
 
-.inputDiv {
-    width: 100vw;
-    text-align: center;
-    margin-right: 80px;
-    margin-bottom: 50px;
-}
-
-
-
 
 h1 {
     text-transform: uppercase;
@@ -31,12 +22,19 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Se adapta a la pagina */
     grid-gap: 20px;
     padding-inline-start: 0;
+
+}
+
+.input {
+    display: flex;
+    padding: 0.75em;
+    justify-content: center;
 }
 
 
 .card {
     list-style: none;
-    padding: 40px;
+    padding: 15px;
     background-color: azure;
     color: #222;
     text-align: center;
@@ -49,7 +47,8 @@ h1 {
 
 .card-image {
     position: relative;
-    /* width: 100px;
+     width: 100px;
     height: 150px;
-    margin: 50px auto; */
-}
+    margin: 50px auto;
+};
+    
